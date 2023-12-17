@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpodapp/Homepage.dart';
+import 'package:riverpodapp/Homepage2.dart';
 
 void main() {
   runApp(
@@ -19,7 +20,7 @@ class App extends StatelessWidget {
     darkTheme: ThemeData.dark(),
     themeMode: ThemeMode.dark,
     debugShowCheckedModeBanner: false,
-    home: HomePage(),
+    home: HomePage2(),
 
     );
   }
