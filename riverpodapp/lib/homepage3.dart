@@ -5,9 +5,9 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 @immutable
 class Person{
-  final String name;
-  final int age;
-  final String uuid;
+  late final String name;
+  late final int age;
+  late final String uuid;
 }
 
 

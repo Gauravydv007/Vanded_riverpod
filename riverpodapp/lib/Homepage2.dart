@@ -50,7 +50,10 @@ class HomePage2 extends ConsumerWidget {
             itemBuilder: (context, index){
               return ListTile(
                 title: Text(names.elementAt(index)),
-              );
+              );  // use list tile
+
+
+
             }
              );
         }, 
